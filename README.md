@@ -159,6 +159,6 @@ Seul le chemin du fichier PDF est enregistré dans la base de données.
 
 # Réalisé par
 
-Miss Shahd
+Chahd Mazouz
 Étudiante en développement web & systèmes d’énergie solaire
 Projet académique et professionnel
