@@ -1,9 +1,5 @@
-حاضر Miss Shahd 👌
-هادشي اختيار ذكي بزاف 👍 حيث README مزيان = مشروع محترف من الأول.
-غادي نعطيك README كامل، واضح، ومنظم تقدري تكوبيه ديري paste مباشرة فـ README.md.
-
-☀️ Photovoltaic Installation Calculator
-📌 Description du projet
+# Photovoltaic Installation Calculator
+# Description du projet
 
 Ce projet est une application web permettant de calculer, dimensionner et documenter une installation photovoltaïque complète.
 L’application couvre tous les éléments techniques d’une installation solaire, depuis les panneaux jusqu’au rapport final en PDF.
@@ -18,7 +14,7 @@ Générer un rapport technique PDF
 
 Stocker et consulter les résultats
 
-🎯 Objectifs du projet
+# Objectifs du projet
 
 Automatiser le dimensionnement d’une installation photovoltaïque
 
@@ -34,7 +30,7 @@ Architecture MVC
 
 Calculs techniques réels (énergie solaire)
 
-⚙️ Fonctionnalités principales
+# Fonctionnalités principales
 
 Création et gestion des projets photovoltaïques
 
@@ -58,7 +54,7 @@ Sauvegarde du chemin du PDF dans la base de données
 
 Historique des rapports par projet
 
-🧩 Composants pris en charge
+# Composants pris en charge
 
 Panneaux photovoltaïques
 
@@ -74,9 +70,9 @@ Connecteurs (MC4, manchons)
 
 Structure de support (cornière, fer H, boulonnerie)
 
-🏗️ Architecture du projet
+# Architecture du projet
 
-Le projet suit une architecture claire basée sur :
+Le projet suit une architecture claire basée sur:
 
 MVC (Model – View – Controller)
 
@@ -86,7 +82,7 @@ Base de données relationnelle (MySQL)
 
 UML pour la conception
 
-🗂️ Conception UML
+# Conception UML
 
 Le projet a été conçu à l’aide de :
 
@@ -102,7 +98,7 @@ Les fonctionnalités
 
 Les relations entre les entités du système
 
-🗃️ Base de données (aperçu)
+# Base de données (aperçu)
 
 Principales tables :
 
@@ -128,7 +124,7 @@ Une installation contient plusieurs composants
 
 Un projet peut avoir plusieurs rapports PDF
 
-🛠️ Technologies utilisées
+# Technologies utilisées
 
 Backend : Laravel
 
@@ -140,7 +136,7 @@ PDF : Génération automatique
 
 Outils de conception : UML (draw.io)
 
-📄 Rapport PDF
+# Rapport PDF
 
 Le rapport généré contient :
 
@@ -154,14 +150,14 @@ Liste complète du matériel
 
 Conclusion sur la validité de l’installation
 
-📌 Seul le chemin du fichier PDF est enregistré dans la base de données.
+Seul le chemin du fichier PDF est enregistré dans la base de données.
 
-🚀 État du projet
+État du projet
 
-📍 Phase actuelle : Conception terminée (UML + Cahier de charges)
-📍 Prochaine étape : Implémentation backend (Laravel)
+# Phase actuelle : Conception terminée (UML + Cahier de charges)
+# Prochaine étape : Implémentation backend (Laravel)
 
-👩‍💻 Réalisé par
+# Réalisé par
 
 Miss Shahd
 Étudiante en développement web & systèmes d’énergie solaire
