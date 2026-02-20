@@ -21,7 +21,7 @@ return new class extends Migration
             $table->float('mpptMax')->nullable();
             $table->float('maxCurrent')->nullable();
             $table->float('powerAc')->nullable();
-            $table->string('pahses')->nullable();
+            $table->string('phases')->nullable();
             $table->timestamps();
         });
     }

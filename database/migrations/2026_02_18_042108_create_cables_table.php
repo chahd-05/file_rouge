@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('installation_id')->constrained()->onDelete('cascade');
             $table->string('type')->nullable();
-            $table->float('lenght')->nullable();
+            $table->float('length')->nullable();
             $table->float('current')->nullable();
             $table->float('section')->nullable();
             $table->float('voltageDrop')->nullable();
