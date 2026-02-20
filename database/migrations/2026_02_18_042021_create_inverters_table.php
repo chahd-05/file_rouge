@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('inverters', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('installation_id')->constrained()->onDelete('cascade');
+            $table->string('brand')->nullable();
+            $table->string('model')->nullable();
+            $table->float('maxVoltage')->nullable();
+            $table->float('mppptMin')->nullable();
+            $table->float('mpptMax')->nullable();
+            $table->float('maxCurrent')->nullable();
+            $table->float('powerAc')->nullable();
+            $table->string('pahses')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('_inverters');
+    }
+};
